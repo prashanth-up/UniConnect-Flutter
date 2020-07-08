@@ -97,6 +97,39 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+id accessibility_action_clickable_span
+id accessibility_custom_action_0
+id accessibility_custom_action_1
+id accessibility_custom_action_10
+id accessibility_custom_action_11
+id accessibility_custom_action_12
+id accessibility_custom_action_13
+id accessibility_custom_action_14
+id accessibility_custom_action_15
+id accessibility_custom_action_16
+id accessibility_custom_action_17
+id accessibility_custom_action_18
+id accessibility_custom_action_19
+id accessibility_custom_action_2
+id accessibility_custom_action_20
+id accessibility_custom_action_21
+id accessibility_custom_action_22
+id accessibility_custom_action_23
+id accessibility_custom_action_24
+id accessibility_custom_action_25
+id accessibility_custom_action_26
+id accessibility_custom_action_27
+id accessibility_custom_action_28
+id accessibility_custom_action_29
+id accessibility_custom_action_3
+id accessibility_custom_action_30
+id accessibility_custom_action_31
+id accessibility_custom_action_4
+id accessibility_custom_action_5
+id accessibility_custom_action_6
+id accessibility_custom_action_7
+id accessibility_custom_action_8
+id accessibility_custom_action_9
 id action_container
 id action_divider
 id action_image
@@ -116,6 +149,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id dark
+id dialog_button
 id end
 id fill
 id fill_horizontal
@@ -140,6 +174,11 @@ id right_icon
 id right_side
 id standard
 id start
+id tag_accessibility_actions
+id tag_accessibility_clickable_spans
+id tag_accessibility_heading
+id tag_accessibility_pane_title
+id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -151,6 +190,7 @@ id top
 id wide
 integer google_play_services_version
 integer status_bar_notification_info_maxnum
+layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -177,6 +217,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string fcm_fallback_notification_channel_label
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -203,3 +244,4 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable SignInButton buttonSize colorScheme scopeUris
+xml flutter_image_picker_file_paths
