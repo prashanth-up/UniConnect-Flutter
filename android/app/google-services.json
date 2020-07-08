@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "21943733606",
+    "firebase_url": "https://srm-community-39000.firebaseio.com",
+    "project_id": "srm-community-39000",
+    "storage_bucket": "srm-community-39000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21943733606:android:784424a6cf2f2fb8648ca7",
+        "android_client_info": {
+          "package_name": "community.prashanth.srmconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21943733606-hfp6r862q3j9tdol0cm7laoclvnqqp2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "community.prashanth.srmconnect",
+            "certificate_hash": "7d68cd666b16e51f876b75a7bee4c99dc8e3d25e"
+          }
+        },
+        {
+          "client_id": "21943733606-k8nmg3tgbqssngh9143vm4qi1ei10ch6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6wT0YjeHacezzOXAqNw8jJfzmiPc6BVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21943733606-k8nmg3tgbqssngh9143vm4qi1ei10ch6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
