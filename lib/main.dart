@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'SRM Connect',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+        accentColor: Colors.teal,
+      ),
       home: Home(),
     );
   }
