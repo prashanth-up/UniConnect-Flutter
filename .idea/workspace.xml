@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/javac/debug/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/0/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594209031539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Custom Theme added. Firebase Messaging, Google Sign-In Conflict solved.">
+      <created>1594210667315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594210667315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,37 +90,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependencies clash avoided. Updated compatible versions. SignIn Splash Screen Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies clash avoided. Updated compatible versions. SignIn Splash Screen Added." />
+    <MESSAGE value="Custom Theme added. Firebase Messaging, Google Sign-In Conflict solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom Theme added. Firebase Messaging, Google Sign-In Conflict solved." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="310" y="5" key="CommitChangelistDialog2" timestamp="1594208996442">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594211045549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="310" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594208996442" />
-    <state width="1491" height="185" key="GridCell.Tab.0.bottom" timestamp="1594210569651">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594211045549" />
+    <state x="133" y="5" key="CommitChangelistDialog2" timestamp="1594210644591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594210569651" />
-    <state width="1491" height="185" key="GridCell.Tab.0.center" timestamp="1594210569651">
+    <state x="133" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594210644591" />
+    <state width="1491" height="178" key="GridCell.Tab.0.bottom" timestamp="1594213128199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594210569651" />
-    <state width="1491" height="185" key="GridCell.Tab.0.left" timestamp="1594210569651">
+    <state width="1491" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594213128199" />
+    <state width="1491" height="178" key="GridCell.Tab.0.center" timestamp="1594213128199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594210569651" />
-    <state width="1491" height="185" key="GridCell.Tab.0.right" timestamp="1594210569651">
+    <state width="1491" height="178" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594213128199" />
+    <state width="1491" height="178" key="GridCell.Tab.0.left" timestamp="1594213128199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594210569651" />
-    <state x="362" y="82" key="SettingsEditor" timestamp="1594209269244">
+    <state width="1491" height="178" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594213128199" />
+    <state width="1491" height="178" key="GridCell.Tab.0.right" timestamp="1594213128199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="82" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594209269244" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594209064412">
+    <state width="1491" height="178" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594213128199" />
+    <state x="362" y="82" key="SettingsEditor" timestamp="1594211930417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594209064412" />
+    <state x="362" y="82" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594211930417" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594210684619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594210684619" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594208176781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

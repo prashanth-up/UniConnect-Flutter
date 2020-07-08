@@ -32,7 +32,7 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c241072db8cf63a6dbeb0575c1529c08\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\dbadc8a2c92e2840dbb3413d92766263\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\9253df729d5ea96f076b9f4ac266fc81\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.2.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\619abba053f621d4e7f075aa1cc9b056\play-services-base-17.2.1\AndroidManifest.xml:17:1-29:12
@@ -122,8 +122,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\prashant
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\dbadc8a2c92e2840dbb3413d92766263\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\9253df729d5ea96f076b9f4ac266fc81\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
@@ -252,8 +252,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\prashant
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\dbadc8a2c92e2840dbb3413d92766263\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\9253df729d5ea96f076b9f4ac266fc81\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
@@ -374,6 +374,8 @@ MERGED from [:cloud_firestore] D:\FlutterProjects\srmconnect\build\cloud_firesto
 MERGED from [:cloud_firestore] D:\FlutterProjects\srmconnect\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\FlutterProjects\srmconnect\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] D:\FlutterProjects\srmconnect\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+MERGED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\93a9129577e1282ded14782e9fdcd1e3\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\93a9129577e1282ded14782e9fdcd1e3\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\e5a95c411f19bbeb97fc1b5c9fcff4fa\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
@@ -446,26 +448,22 @@ ADDED from [:image_picker] D:\FlutterProjects\srmconnect\build\image_picker\inte
 		ADDED from [:image_picker] D:\FlutterProjects\srmconnect\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
 	android:name
 		ADDED from [:image_picker] D:\FlutterProjects\srmconnect\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
-service#io.flutter.plugins.firebasemessaging.FlutterFirebaseInstanceIDService
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
 ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 	android:name
-		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-102
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-80
-	android:name
-		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-77
-service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
-ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
-	android:name
-		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-101
+		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:29
+ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-78
+ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
 	android:name
-		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-75
+		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [:firebase_messaging] D:\FlutterProjects\srmconnect\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\d703fbddb380c41a23191ec5ee5d59f4\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -555,11 +553,11 @@ ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\User
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\f83116d0690dd01225dbd5f211dc5390\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\56124aa52409f3084c9857ace52a8929\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:20.0.1] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\afd3527ad127ff55401c3877d41295fb\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\prashanth\.gradle\caches\transforms-2\files-2.1\c266841fe422bd2db428e3a7e45cb9af\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
 	android:name
