@@ -1,13 +1,19 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:srmconnect/pages/activity_feed.dart';
+import 'package:srmconnect/pages/create_account.dart';
 import 'package:srmconnect/pages/profile.dart';
 import 'package:srmconnect/pages/search.dart';
 import 'package:srmconnect/pages/timeline.dart';
 import 'package:srmconnect/pages/upload.dart';
 
 final GoogleSignIn googleSignIn = GoogleSignIn();
+
+final usersRef = Firestore.instance.collection('users');
+
+final DateTime timestamp = DateTime.now();
 
 class Home extends StatefulWidget {
   @override
@@ -41,13 +47,37 @@ class _HomeState extends State<Home> {
 
   handleSignIn(GoogleSignInAccount account){
     if (account != null) {
-      print('User Signed In $account');
+      createUserInFirestore();
       setState(() {
         isAuth = true;
       });
     } else {
       setState(() {
         isAuth = false;
+      });
+    }
+  }
+
+  createUserInFirestore() async {
+    //Checking if user exists
+    final GoogleSignInAccount user = googleSignIn.currentUser;
+    final DocumentSnapshot doc = await usersRef.document(user.id).get();
+
+    // If not then go to create acc page
+    if(!doc.exists) {
+      final username = await Navigator.push(
+          context, MaterialPageRoute(builder: (context) => CreateAccount()));
+
+      // get username from create acc and use that to make new user doc in 'users' collection
+
+      usersRef.document(user.id).setData({
+        "id": user.id,
+        "username":username,
+        "photoUrl": user.photoUrl,
+        "email": user.email,
+        "displayName" : user.displayName,
+        "bio" : "",
+        "timestamp" : timestamp
       });
     }
   }
@@ -86,7 +116,11 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: PageView(
         children: <Widget>[
-          Timeline(),
+//          Timeline(),
+        RaisedButton(
+          child: Text("Logout"),
+          onPressed: logout,
+        ),
           ActivityFeed(),
           Upload(),
           Search(),
@@ -136,7 +170,7 @@ class _HomeState extends State<Home> {
                 color: Colors.white,
               ),
             ),
-            GestureDetector(
+            InkWell(
               onTap: login,
               child: Container(
                 width: 260.0,
