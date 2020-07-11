@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/create_account.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/create_account.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/header.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/search.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="navigation" />
+        <entry key="$PROJECT_DIR$" value="user-auth" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,19 +83,19 @@
       <option name="project" value="LOCAL" />
       <updated>1594298995103</updated>
     </task>
-    <task id="LOCAL-00005" summary="UserAuth ready. UserInfo stored in Firestore. Logout works.">
-      <created>1594376203904</created>
+    <task id="LOCAL-00005" summary="Search Page design added.">
+      <created>1594465906879</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1594376203904</updated>
+      <updated>1594465906879</updated>
     </task>
-    <task id="LOCAL-00006" summary="User Instance created. DocumentSnapshot in FireStore Stored in new model">
-      <created>1594380002774</created>
+    <task id="LOCAL-00006" summary="Responsive Layout added. Search Account Feature Added. Clear textField button added">
+      <created>1594467326481</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1594380002774</updated>
+      <updated>1594467326481</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -133,51 +129,51 @@
     <MESSAGE value="Custom Theme added. Firebase Messaging, Google Sign-In Conflict solved." />
     <MESSAGE value="Custom Header Widget added for ReUsability." />
     <MESSAGE value="StreamBuilder and FutureBuilder Added in timeline.dart" />
-    <MESSAGE value="UserAuth ready. UserInfo stored in Firestore. Logout works." />
-    <MESSAGE value="User Instance created. DocumentSnapshot in FireStore Stored in new model" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Instance created. DocumentSnapshot in FireStore Stored in new model" />
+    <MESSAGE value="Search Page design added." />
+    <MESSAGE value="Responsive Layout added. Search Account Feature Added. Clear textField button added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive Layout added. Search Account Feature Added. Clear textField button added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594379143168">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594211045549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594379993808">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594211045549" />
+    <state x="791" y="5" key="CommitChangelistDialog2" timestamp="1594467317662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594379993808" />
+    <state x="791" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594467317662" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1594299032361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299032361" />
-    <state width="1491" height="180" key="GridCell.Tab.0.bottom" timestamp="1594381512076">
+    <state width="722" height="228" key="GridCell.Tab.0.bottom" timestamp="1594467072198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594381512076" />
-    <state width="1491" height="180" key="GridCell.Tab.0.center" timestamp="1594381512076">
+    <state width="722" height="228" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594467072198" />
+    <state width="722" height="228" key="GridCell.Tab.0.center" timestamp="1594467072198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594381512076" />
-    <state width="1491" height="180" key="GridCell.Tab.0.left" timestamp="1594381512076">
+    <state width="722" height="228" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594467072198" />
+    <state width="722" height="228" key="GridCell.Tab.0.left" timestamp="1594467072197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594381512076" />
-    <state width="1491" height="180" key="GridCell.Tab.0.right" timestamp="1594381512076">
+    <state width="722" height="228" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594467072197" />
+    <state width="722" height="228" key="GridCell.Tab.0.right" timestamp="1594467072198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594381512076" />
-    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594216037627">
+    <state width="722" height="228" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594467072198" />
+    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594382456423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594216037627" />
+    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594382456423" />
     <state x="362" y="82" key="SettingsEditor" timestamp="1594211930417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="82" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594211930417" />
-    <state x="555" y="128" key="VCS.ChangeListViewerDialog" timestamp="1594218257418">
+    <state x="555" y="128" key="VCS.ChangeListViewerDialog" timestamp="1594382430422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594218257418" />
+    <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594382430422" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594299033805">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -186,18 +182,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299667589" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594305690133">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594464521386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594305690133" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594218243143">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594464521386" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594382445481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594218243143" />
-    <state x="463" y="144" width="609" height="536" key="find.popup" timestamp="1594372311644">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="463" y="144" width="609" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594372311644" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594382445481" />
     <state x="548" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594216031078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
