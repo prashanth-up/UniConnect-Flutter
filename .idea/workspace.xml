@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/upload.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/upload.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594552284764</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="POST UPLOAD SUCCESSFUL!! DATA COMPRESSED AND STORED IN FIRESTORE!!">
+      <created>1594553698191</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594553698191</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -155,37 +165,38 @@
     <MESSAGE value="Upload Page Modal Added with File Input." />
     <MESSAGE value="Upload Page UI/UX Added. TODO:FormSubmission" />
     <MESSAGE value="Uploaded Image Compressed before sending to firestore. Downlaod URL generated for the postImage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploaded Image Compressed before sending to firestore. Downlaod URL generated for the postImage" />
+    <MESSAGE value="POST UPLOAD SUCCESSFUL!! DATA COMPRESSED AND STORED IN FIRESTORE!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="POST UPLOAD SUCCESSFUL!! DATA COMPRESSED AND STORED IN FIRESTORE!!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594379143168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594552283428">
+    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594553689098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594552283428" />
+    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594553689098" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1594299032361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299032361" />
-    <state width="721" height="166" key="GridCell.Tab.0.bottom" timestamp="1594553327110">
+    <state width="722" height="393" key="GridCell.Tab.0.bottom" timestamp="1594554156483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594553327110" />
-    <state width="721" height="166" key="GridCell.Tab.0.center" timestamp="1594553327110">
+    <state width="722" height="393" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594554156483" />
+    <state width="722" height="393" key="GridCell.Tab.0.center" timestamp="1594554156483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594553327110" />
-    <state width="721" height="166" key="GridCell.Tab.0.left" timestamp="1594553327110">
+    <state width="722" height="393" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594554156483" />
+    <state width="722" height="393" key="GridCell.Tab.0.left" timestamp="1594554156482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594553327110" />
-    <state width="721" height="166" key="GridCell.Tab.0.right" timestamp="1594553327110">
+    <state width="722" height="393" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594554156482" />
+    <state width="722" height="393" key="GridCell.Tab.0.right" timestamp="1594554156483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594553327110" />
+    <state width="722" height="393" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594554156483" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594468358619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
