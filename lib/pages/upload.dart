@@ -25,6 +25,9 @@ class Upload extends StatefulWidget {
 
 class _UploadState extends State<Upload> {
 
+  TextEditingController captionController = TextEditingController();
+  TextEditingController locationController = TextEditingController();
+
   File file;
   bool isUploading = false;
   String postId = Uuid().v4();
@@ -122,13 +125,43 @@ class _UploadState extends State<Upload> {
     return downloadUrl;
   }
 
+  // All the post data
+  createPostInFirestore({String mediaUrl, String location, String description}){
+    postsRef
+      .document(widget.currentUser.id)
+      .collection("userPosts")
+      .document(postId)
+      .setData({
+        "postId" : postId,
+        "ownerId" : widget.currentUser.id,
+        "username" : widget.currentUser.username,
+        "mediaUrl" : mediaUrl,
+        "description" : description,
+        "location" : location,
+        "timestamp" : timestamp,
+        "likes" : {},
+    });
+
+  }
+
   handleSubmit() async{
     setState(() {
       isUploading = true;
     });
     await compressImage();
     String mediaUrl = await uploadImage(file);
-//    createPostInFirestore();
+    createPostInFirestore(
+      mediaUrl: mediaUrl,
+      location: locationController.text,
+      description: captionController.text,
+    );
+    captionController.clear();
+    locationController.clear();
+    setState(() {
+      file = null;
+      isUploading = false;
+      postId = Uuid().v4();
+    });
   }
 
   Scaffold buildUploadForm(){
@@ -187,6 +220,7 @@ class _UploadState extends State<Upload> {
             title: Container(
               width: 250.0,
               child: TextField(
+                controller: captionController,
                 decoration: InputDecoration(
                   hintText: "Write a caption...",
                   border: InputBorder.none,
@@ -200,6 +234,7 @@ class _UploadState extends State<Upload> {
             title: Container(
               width: 250.0,
               child: TextField(
+                controller: locationController,
                 decoration: InputDecoration(
                   hintText: "Where was this photo taken",
                   border: InputBorder.none
