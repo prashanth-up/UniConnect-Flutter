@@ -47,8 +47,10 @@ class _ProfileState extends State<Profile> {
   }
 
   editProfile(){
-//    Navigator.push(context, MaterialPageRoute();
-//      builder: (context) => EditProfile((currentUserId : currentUserId)));
+    Navigator.push(context, MaterialPageRoute(
+      builder: (context) => EditProfile(
+        currentUserId : currentUserId)
+    ));
   }
 
   Container buildButton({String text, Function function}){
