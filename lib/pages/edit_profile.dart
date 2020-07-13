@@ -18,10 +18,13 @@ class EditProfile extends StatefulWidget {
 
 class _EditProfileState extends State<EditProfile> {
 
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController displayNameController = TextEditingController();
   TextEditingController bioController = TextEditingController();
   bool isLoading = false;
   User user;
+  bool _displayNameValid = true;
+  bool _bioValid = true;
 
   @override
   void initState() {
@@ -56,7 +59,8 @@ class _EditProfileState extends State<EditProfile> {
         TextField(
           controller: displayNameController,
           decoration: InputDecoration(
-            hintText: "Update Display Name"
+            hintText: "Update Display Name",
+            errorText: _displayNameValid ? null : "Display Name too short"
           ),
         )
       ],
@@ -76,16 +80,41 @@ class _EditProfileState extends State<EditProfile> {
         TextField(
           controller: bioController,
           decoration: InputDecoration(
-              hintText: "Update Bio"
+              hintText: "Update Bio",
+            errorText: _bioValid ? null : "Bio too long"
           ),
         )
       ],
     );
   }
 
+  updateProfileData(){
+    setState(() {
+      displayNameController.text.trim().length < 3 ||
+          displayNameController.text.isEmpty ? _displayNameValid = false :
+          _displayNameValid = true;
+      bioController.text.trim().length > 100 ? _bioValid = false : _bioValid = true;
+    });
+
+    if(_displayNameValid && _bioValid){
+      usersRef.document(widget.currentUserId).updateData({
+        "displayName" : displayNameController.text,
+        "bio" : bioController.text
+      });
+      SnackBar snackbar = SnackBar(content: Text("Profile Updated Successfully"));
+      _scaffoldKey.currentState.showSnackBar(snackbar);
+    }
+  }
+
+  logout() async{
+    await googleSignIn.signOut();
+    Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Center(
@@ -129,7 +158,7 @@ class _EditProfileState extends State<EditProfile> {
                   ),
                 ),
                 RaisedButton(
-                  onPressed: () => print("update proflie data"),
+                  onPressed: updateProfileData,
                   child: Text("Update Profile",
                     style: TextStyle(
                       color: Theme.of(context).primaryColor,
@@ -141,7 +170,7 @@ class _EditProfileState extends State<EditProfile> {
                 Padding(
                   padding: EdgeInsets.all(16.0),
                   child: FlatButton.icon(
-                    onPressed: () => print('logout'),
+                    onPressed: logout,
                     icon: Icon(Icons.cancel, color: Colors.red),
                     label: Text(
                       "Logout",
