@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/edit_profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/edit_profile.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/profile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="profile-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594639197194</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="All Overflows Solved.">
+      <created>1594640568247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594640568247</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -175,37 +179,38 @@
     <MESSAGE value="Uploaded Image Compressed before sending to firestore. Downlaod URL generated for the postImage" />
     <MESSAGE value="POST UPLOAD SUCCESSFUL!! DATA COMPRESSED AND STORED IN FIRESTORE!!" />
     <MESSAGE value="Profile Page Created, Design copied from Instagram." />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile Page Created, Design copied from Instagram." />
+    <MESSAGE value="All Overflows Solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="All Overflows Solved." />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594379143168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594639192922">
+    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594642504849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594639192922" />
+    <state x="207" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594642504849" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1594299032361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299032361" />
-    <state width="1491" height="142" key="GridCell.Tab.0.bottom" timestamp="1594639587837">
+    <state width="721" height="214" key="GridCell.Tab.0.bottom" timestamp="1594642206419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594639587837" />
-    <state width="1491" height="142" key="GridCell.Tab.0.center" timestamp="1594639587837">
+    <state width="721" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594642206419" />
+    <state width="721" height="214" key="GridCell.Tab.0.center" timestamp="1594642206418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="142" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594639587837" />
-    <state width="1491" height="142" key="GridCell.Tab.0.left" timestamp="1594639587837">
+    <state width="721" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594642206418" />
+    <state width="721" height="214" key="GridCell.Tab.0.left" timestamp="1594642206418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="142" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594639587837" />
-    <state width="1491" height="142" key="GridCell.Tab.0.right" timestamp="1594639587837">
+    <state width="721" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594642206418" />
+    <state width="721" height="214" key="GridCell.Tab.0.right" timestamp="1594642206419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="142" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594639587837" />
+    <state width="721" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594642206419" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594468358619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
