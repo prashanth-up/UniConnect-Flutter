@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:srmconnect/models/user.dart';
+import 'package:srmconnect/pages/edit_profile.dart';
 import 'package:srmconnect/pages/home.dart';
 import 'package:srmconnect/widgets/header.dart';
 import 'package:srmconnect/widgets/progress.dart';
@@ -46,16 +47,17 @@ class _ProfileState extends State<Profile> {
   }
 
   editProfile(){
-
+//    Navigator.push(context, MaterialPageRoute();
+//      builder: (context) => EditProfile((currentUserId : currentUserId)));
   }
 
   Container buildButton({String text, Function function}){
     return Container(
-      padding: EdgeInsets.only(top: 2.0),
+      padding: EdgeInsets.only(top: 1.0),
       child: FlatButton(
         onPressed: function,
         child: Container(
-          width: 250.0,
+          width: 240.0,
           height: 27.0,
           child: Text(text,
             style: TextStyle(
@@ -116,9 +118,9 @@ class _ProfileState extends State<Profile> {
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
-                            buildCountColumn("posts",0),
-                            buildCountColumn("followers",0),
-                            buildCountColumn("following",0),
+                            buildCountColumn("Posts",0),
+                            buildCountColumn("Followers",0),
+                            buildCountColumn("Following",0),
                           ],
                         ),
                         Row(
