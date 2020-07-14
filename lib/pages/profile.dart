@@ -5,6 +5,7 @@ import 'package:srmconnect/models/user.dart';
 import 'package:srmconnect/pages/edit_profile.dart';
 import 'package:srmconnect/pages/home.dart';
 import 'package:srmconnect/widgets/header.dart';
+import 'package:srmconnect/widgets/post_tile.dart';
 import 'package:srmconnect/widgets/progress.dart';
 import 'package:srmconnect/widgets/post.dart';
 
@@ -204,7 +205,19 @@ class _ProfileState extends State<Profile> {
     if(isLoading){
       return circularProgress();
     }
-    return Column(children: posts);
+    List<GridTile> gridTiles = [];
+    posts.forEach((post){
+      gridTiles.add(GridTile(child: PostTile(post),));
+    });
+    return GridView.count(
+      crossAxisCount: 3,
+      childAspectRatio: 1.0,
+      mainAxisSpacing: 1.5,
+      crossAxisSpacing: 1.5,
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
+      children: gridTiles,
+    );
   }
 
   @override
