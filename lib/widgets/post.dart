@@ -172,16 +172,16 @@ class _PostState extends State<Post> {
           cachedNetworkImage(mediaUrl),
           showHeart ?
           Animator(
-            duration: Duration(milliseconds: 500),
+            duration: Duration(seconds: 5),
             tween: Tween(begin: 0.8, end: 1.4),
             curve: Curves.elasticOut,
             cycles: 0,
             builder: (_,anim,__) => Transform.scale(
               scale: anim.value,
               child: Icon(
-                Icons.favorite,
+                Icons.check_circle,
                 size: 80.0,
-                color: Colors.pink,
+                color: Colors.green,
               ),
             ),
           ) : Text("")
@@ -202,9 +202,9 @@ class _PostState extends State<Post> {
             GestureDetector(
               onTap: handleLikePost,
               child: Icon(
-                isLiked ? Icons.favorite : Icons.favorite_border,
+                isLiked ? Icons.check_box : Icons.check_box_outline_blank,
                 size: 28.0,
-                color: Colors.pink,
+                color: Colors.green,
               ),
             ),
             Padding(
