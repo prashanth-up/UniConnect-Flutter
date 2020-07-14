@@ -106,7 +106,7 @@ class _PostState extends State<Post> {
             child: Text(
               user.username,
               style: TextStyle(
-                color: Colors.blue,
+                color: Colors.black,
                 fontWeight: FontWeight.bold
               ),
             ),
@@ -162,8 +162,12 @@ class _PostState extends State<Post> {
             )
           ],
         ),
+
         Row(
           children: <Widget>[
+//            Padding(
+//              padding: EdgeInsets.only(bottom: 5.0),
+//            ),
             Container(
               margin: EdgeInsets.only(left: 20.0),
               child: Text(
@@ -174,6 +178,9 @@ class _PostState extends State<Post> {
               ),
             )
           ],
+        ),
+        SizedBox(
+          height: 4.0,
         ),
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -187,7 +194,12 @@ class _PostState extends State<Post> {
                 ),
               ),
             ),
-            Expanded(child: Text(description),)
+            SizedBox(
+              width: 8.0,
+            ),
+            Expanded(
+              child: Text(description),
+            )
           ],
         )
       ],
