@@ -16,14 +16,6 @@ jobs:
         flutter-version: 1.12.13+hotfix.8
     - run: flutter pub get
     - run: flutter test
-    - run: flutter build apk --debug --split-per-abi
+    - name: Building the debug APK
+    - run: flutter build apk --debug
       
-    - name: Create a Release APK
-      uses: steebchen/flutter@v1.1.0
-      with:
-        args: build apk --release
-#     - name: Create a Release APK
-#       uses: ncipollo/release-action@v1
-#       with:
-#         artifacts: "build/app/outputs/apk/debug/*.apk"
-#         token: ${{ secrets.TOKEN }}
