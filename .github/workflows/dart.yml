@@ -21,7 +21,7 @@ jobs:
     - name: Create a Release APK
       uses: steebchen/flutter@v1.1.0
       with:
-        args: flutter build apk --release
+        args: build apk --release
 #     - name: Create a Release APK
 #       uses: ncipollo/release-action@v1
 #       with:
