@@ -167,10 +167,10 @@ class _PostState extends State<Post> {
 
 
   addLikeToActivityFeed(){
-    // TODO: NO notifs to owners post if they like it themselves.
+    //DIDIT : NO notifs to owners post if they like it themselves.
     bool isNotPostOwner = currentUserId != ownerId;
     if(isNotPostOwner) {
-      activityRef
+      activityFeedRef
           .document(ownerId)
           .collection("feedItems")
           .document(postId)
@@ -189,7 +189,7 @@ class _PostState extends State<Post> {
   removeLikeFromActivityFeed(){
     bool isNotPostOwner = currentUserId != ownerId;
     if(isNotPostOwner){
-      activityRef
+      activityFeedRef
           .document(ownerId)
           .collection("feedItems")
           .document(postId)
