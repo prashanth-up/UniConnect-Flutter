@@ -17,8 +17,13 @@ jobs:
     - run: flutter pub get
     - run: flutter test
     - run: flutter build apk --debug --split-per-abi
+      
     - name: Create a Release APK
-      uses: ncipollo/release-action@v1
+      uses: steebchen/flutter@v1.1.0
       with:
-        artifacts: "build/app/outputs/apk/debug/*.apk"
-        token: ${{ secrets.TOKEN }}
+        args: build apk --release
+#     - name: Create a Release APK
+#       uses: ncipollo/release-action@v1
+#       with:
+#         artifacts: "build/app/outputs/apk/debug/*.apk"
+#         token: ${{ secrets.TOKEN }}
