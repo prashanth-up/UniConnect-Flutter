@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:srmconnect/pages/home.dart';
 import 'package:srmconnect/pages/post_screen.dart';
+import 'package:srmconnect/pages/profile.dart';
 import 'package:srmconnect/widgets/header.dart';
 import 'package:srmconnect/widgets/progress.dart';
 import 'package:timeago/timeago.dart' as timeago;
@@ -151,7 +152,7 @@ class ActivityFeedItem extends StatelessWidget {
         color: Colors.white54,
           child: ListTile(
             title: GestureDetector(
-              onTap: () => print('show profile'),
+              onTap: () => showProfile(context, profileId: userId),
               child: RichText(
                 overflow: TextOverflow.ellipsis,
                 text: TextSpan(
@@ -184,4 +185,9 @@ class ActivityFeedItem extends StatelessWidget {
       ),
     );
   }
+}
+
+showProfile(BuildContext context, {String profileId}){
+  Navigator.push(context, MaterialPageRoute(builder: (context) =>
+  Profile(profileId: profileId,)));
 }
