@@ -4,11 +4,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="Activity Feed ListTile added to show the feed. Activity Feed ready and working.">
+    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/activity_feed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/activity_feed.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/post_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/post_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/header.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/post_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/post_tile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594824596817</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="PostScreen now opens when post clicked on ActivityFeed">
+      <created>1594899184892</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594899184892</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -218,7 +228,8 @@
     <MESSAGE value="Adding Comment Page Design for Posts" />
     <MESSAGE value="Post like and unlike feature added and recorded in FireStore." />
     <MESSAGE value="Acitivity Feed DataBinding done. TODO: Display results in the layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acitivity Feed DataBinding done. TODO: Display results in the layout." />
+    <MESSAGE value="PostScreen now opens when post clicked on ActivityFeed" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostScreen now opens when post clicked on ActivityFeed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Notifications" timestamp="1594810991408">
@@ -229,30 +240,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594828853316">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594899179891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594828853316" />
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594899179891" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1594299032361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299032361" />
-    <state width="1491" height="425" key="GridCell.Tab.0.bottom" timestamp="1594899024649">
+    <state width="722" height="152" key="GridCell.Tab.0.bottom" timestamp="1594899319068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="425" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594899024649" />
-    <state width="1491" height="425" key="GridCell.Tab.0.center" timestamp="1594899024649">
+    <state width="722" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594899319068" />
+    <state width="722" height="152" key="GridCell.Tab.0.center" timestamp="1594899319067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="425" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594899024649" />
-    <state width="1491" height="425" key="GridCell.Tab.0.left" timestamp="1594899024649">
+    <state width="722" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594899319067" />
+    <state width="722" height="152" key="GridCell.Tab.0.left" timestamp="1594899319067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="425" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594899024649" />
-    <state width="1491" height="425" key="GridCell.Tab.0.right" timestamp="1594899024649">
+    <state width="722" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594899319067" />
+    <state width="722" height="152" key="GridCell.Tab.0.right" timestamp="1594899319068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="425" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594899024649" />
+    <state width="722" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594899319068" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594748795314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
