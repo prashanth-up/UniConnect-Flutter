@@ -4,9 +4,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
+    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="Edited post.dart to redirect to the user profile onTap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/post.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/post.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/profile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594901346131</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Edited post.dart to redirect to the user profile onTap">
+      <created>1594901720628</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594901720628</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -214,7 +221,27 @@
       <map>
         <entry key="1">
           <value>
-            <State />
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="MAIN">
@@ -225,6 +252,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,7 +280,8 @@
     <MESSAGE value="Profile Page tile also opens PostScreen now." />
     <MESSAGE value="Activity feed profile Name redirects to the profile Id." />
     <MESSAGE value="Search User Results can now redirect to the user profile." />
-    <option name="LAST_COMMIT_MESSAGE" value="Search User Results can now redirect to the user profile." />
+    <MESSAGE value="Edited post.dart to redirect to the user profile onTap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited post.dart to redirect to the user profile onTap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Notifications" timestamp="1594810991408">
@@ -259,30 +292,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594901344957">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594902313650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594901344957" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1594299032361">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594902313650" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1594902180023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299032361" />
-    <state width="1491" height="118" key="GridCell.Tab.0.bottom" timestamp="1594901531823">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594902180023" />
+    <state width="1491" height="147" key="GridCell.Tab.0.bottom" timestamp="1594902259411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="118" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594901531823" />
-    <state width="1491" height="118" key="GridCell.Tab.0.center" timestamp="1594901531822">
+    <state width="1491" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594902259411" />
+    <state width="1491" height="147" key="GridCell.Tab.0.center" timestamp="1594902259411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="118" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594901531822" />
-    <state width="1491" height="118" key="GridCell.Tab.0.left" timestamp="1594901531822">
+    <state width="1491" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594902259411" />
+    <state width="1491" height="147" key="GridCell.Tab.0.left" timestamp="1594902259410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="118" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594901531822" />
-    <state width="1491" height="118" key="GridCell.Tab.0.right" timestamp="1594901531822">
+    <state width="1491" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594902259410" />
+    <state width="1491" height="147" key="GridCell.Tab.0.right" timestamp="1594902259411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="118" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594901531822" />
+    <state width="1491" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594902259411" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594748795314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,10 +328,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594748776397" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594828907815">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594902379646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594828907815" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594902379646" />
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1594299667589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -307,18 +340,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594896779841" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594828289199">
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594902844156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594828289199" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594902844156" />
     <state x="463" y="144" width="609" height="536" key="find.popup" timestamp="1594372311644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="144" width="609" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594372311644" />
-    <state x="548" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594216031078">
+    <state x="548" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594902876621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1594216031078" />
+    <state x="548" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1594902876621" />
     <state x="809" y="189" key="run.anything.popup" timestamp="1594547768480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

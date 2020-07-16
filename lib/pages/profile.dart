@@ -23,6 +23,8 @@ class Profile extends StatefulWidget {
 
 class _ProfileState extends State<Profile> {
 
+  bool isFollowing = false;
+
   final String currentUserId = currentUser?.id;
   String postOrientation = "grid";
   bool isLoading = false;
@@ -96,15 +98,15 @@ class _ProfileState extends State<Profile> {
           height: 27.0,
           child: Text(text,
             style: TextStyle(
-              color: Colors.white,
+              color: isFollowing ? Colors.black :Colors.white,
               fontWeight: FontWeight.bold,
             ),
           ),
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: Colors.blue,
+            color: isFollowing ? Colors.white :Colors.blue,
             border: Border.all(
-              color: Colors.blue,
+              color: isFollowing ? Colors.grey : Colors.blue,
             ),
             borderRadius: BorderRadius.circular(5.0),
           ),
@@ -122,11 +124,27 @@ class _ProfileState extends State<Profile> {
         text : "Edit Profile",
         function: editProfile
       );
-    }else{
-      return Text('Hey');
+    }else if(isFollowing){
+      return buildButton(text: "Unfollow", function: handleUnfollowUser);
+    }
+    else if(!isFollowing){
+      return buildButton(
+        text: "Follow",
+        function: handleFollowUser,
+      );
     }
 
   }
+
+
+  handleUnfollowUser(){
+
+  }
+
+  handleFollowUser(){
+
+  }
+
 
   buildProfileHeader(){
     return FutureBuilder(
