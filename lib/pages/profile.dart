@@ -30,6 +30,9 @@ class _ProfileState extends State<Profile> {
   String postOrientation = "grid";
   bool isLoading = false;
   int postCount = 0;
+  int followerCount = 0;
+  int followingCount = 0;
+
   List<Post> posts = [];
 
 
@@ -37,8 +40,8 @@ class _ProfileState extends State<Profile> {
   void initState() {
     super.initState();
     getProfilePosts();
-//    getFollowers();
-//    getFollowing();
+    getFollowers();
+    getFollowing();
     checkIfFollowing();
   }
 
@@ -50,6 +53,27 @@ class _ProfileState extends State<Profile> {
         .get();
     setState(() {
       isFollowing = doc.exists;
+    });
+  }
+
+
+  getFollowers() async {
+    QuerySnapshot snapshot = await followersRef
+        .document(widget.profileId)
+        .collection('userFollowers')
+        .getDocuments();
+    setState(() {
+      followerCount = snapshot.documents.length;
+    });
+  }
+
+  getFollowing() async{
+    QuerySnapshot snapshot = await followingRef
+      .document(widget.profileId)
+      .collection('userFollowing')
+      .getDocuments();
+    setState(() {
+      followingCount = snapshot.documents.length;
     });
   }
 
@@ -250,8 +274,8 @@ class _ProfileState extends State<Profile> {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
                             buildCountColumn("Posts",postCount),
-                            buildCountColumn("Followers",0),
-                            buildCountColumn("Following",0),
+                            buildCountColumn("Followers",followerCount),
+                            buildCountColumn("Following",followingCount),
                           ],
                         ),
                         Row(
