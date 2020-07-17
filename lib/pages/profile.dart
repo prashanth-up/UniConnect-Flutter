@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:srmconnect/models/user.dart';
@@ -138,11 +139,72 @@ class _ProfileState extends State<Profile> {
 
 
   handleUnfollowUser(){
+    setState(() {
+      isFollowing = false;
+    });
+    // remove follower
+    followersRef
+        .document(widget.profileId)
+        .collection('userFollowers')
+        .document(currentUserId)
+        .get().then((doc){
+          if(doc.exists){
+            doc.reference.delete();
+          }
+        });
+    // remove followgn
+    followingRef
+        .document(currentUserId)
+        .collection('userFollowing')
+        .document(widget.profileId)
+        .get().then((doc){
+          if(doc.exists){
+            doc.reference.delete();
+        }
+    });
 
+    // add activity feed item to notifiy that user
+    activityFeedRef
+        .document(widget.profileId)
+        .collection('feedItems')
+        .document(currentUserId)
+        .get().then((doc){
+          if(doc.exists){
+            doc.reference.delete();
+          }
+        });
   }
 
   handleFollowUser(){
+    setState(() {
+      isFollowing = true;
+    });
+    // Make auth user follower of other user and update their collection
+    followersRef
+      .document(widget.profileId)
+      .collection('userFollowers')
+      .document(currentUserId)
+      .setData({});
+    // Put that user on your collction
+    followingRef
+      .document(currentUserId)
+      .collection('userFollowing')
+      .document(widget.profileId)
+      .setData({});
 
+    // add activity feed item to notifiy that user
+    activityFeedRef
+      .document(widget.profileId)
+      .collection('feedItems')
+      .document(currentUserId)
+      .setData({
+        "type" :  "follow",
+        "ownerId" : widget.profileId,
+        "username" : currentUser.username,
+        "userId" : currentUserId,
+        "userProfileImg" : currentUser.photoUrl,
+        "timestamp" : timestamp,
+      });
   }
 
 
