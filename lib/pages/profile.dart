@@ -37,6 +37,20 @@ class _ProfileState extends State<Profile> {
   void initState() {
     super.initState();
     getProfilePosts();
+//    getFollowers();
+//    getFollowing();
+    checkIfFollowing();
+  }
+
+  checkIfFollowing() async{
+    DocumentSnapshot doc = await followersRef
+        .document(widget.profileId)
+        .collection('userFollowers')
+        .document(currentUserId)
+        .get();
+    setState(() {
+      isFollowing = doc.exists;
+    });
   }
 
   getProfilePosts() async{
