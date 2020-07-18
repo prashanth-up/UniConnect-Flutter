@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594995084236</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Firebase Functions: Followers's posts now added to the timeline collection in the database.">
+      <created>1595070526800</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1595070526800</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -312,7 +323,8 @@
     <MESSAGE value="Following and Followers updated in the collections respectively." />
     <MESSAGE value="Following state remembered after user navigates away from page" />
     <MESSAGE value="Following and Followers is now functional and will be displayed in the userProfile page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Following and Followers is now functional and will be displayed in the userProfile page." />
+    <MESSAGE value="Firebase Functions: Followers's posts now added to the timeline collection in the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Firebase Functions: Followers's posts now added to the timeline collection in the database." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Notifications" timestamp="1594810991408">
@@ -323,10 +335,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1594995083197">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595070521771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594995083197" />
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595070521771" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1594993625267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
