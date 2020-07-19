@@ -4,9 +4,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
+    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="PostDelete Added : Posts Deleted now will be wiped databases everywhere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/post.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/post.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595071155677</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="PostDelete Added : Posts Deleted now will be wiped databases everywhere">
+      <created>1595074054896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595074054896</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -303,7 +311,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Custom Theme added. Firebase Messaging, Google Sign-In Conflict solved." />
     <MESSAGE value="Custom Header Widget added for ReUsability." />
     <MESSAGE value="StreamBuilder and FutureBuilder Added in timeline.dart" />
     <MESSAGE value="UserAuth ready. UserInfo stored in Firestore. Logout works." />
@@ -328,7 +335,8 @@
     <MESSAGE value="Following and Followers is now functional and will be displayed in the userProfile page." />
     <MESSAGE value="Firebase Functions: Followers's posts now added to the timeline collection in the database." />
     <MESSAGE value="Firebase Functions: Posts deleted from timeline when user unfollows someone." />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase Functions: Posts deleted from timeline when user unfollows someone." />
+    <MESSAGE value="PostDelete Added : Posts Deleted now will be wiped databases everywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostDelete Added : Posts Deleted now will be wiped databases everywhere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Notifications" timestamp="1594810991408">
@@ -339,30 +347,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595071148310">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595168220147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595071148310" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1594993625267">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595168220147" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1595073986659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594993625267" />
-    <state width="722" height="181" key="GridCell.Tab.0.bottom" timestamp="1595069429919">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595073986659" />
+    <state width="722" height="180" key="GridCell.Tab.0.bottom" timestamp="1595166413616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595069429919" />
-    <state width="722" height="181" key="GridCell.Tab.0.center" timestamp="1595069429918">
+    <state width="722" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
+    <state width="722" height="180" key="GridCell.Tab.0.center" timestamp="1595166413616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595069429918" />
-    <state width="722" height="181" key="GridCell.Tab.0.left" timestamp="1595069429908">
+    <state width="722" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
+    <state width="722" height="180" key="GridCell.Tab.0.left" timestamp="1595166413615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595069429908" />
-    <state width="722" height="181" key="GridCell.Tab.0.right" timestamp="1595069429918">
+    <state width="722" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595166413615" />
+    <state width="722" height="180" key="GridCell.Tab.0.right" timestamp="1595166413616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595069429918" />
+    <state width="722" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594748795314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -375,18 +383,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594748776397" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594902379646">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595074145634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594902379646" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595074145634" />
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1594299667589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299667589" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595065696411">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595164985139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595065696411" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595164985139" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594902844156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
