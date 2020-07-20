@@ -91,6 +91,13 @@ class _HomeState extends State<Home> {
         "bio" : "",
         "timestamp" : timestamp
       });
+
+      await followingRef
+        .document(user.id)
+        .collection('userFollowers')
+        .document(user.id)
+        .setData({});
+
       doc = await usersRef.document(user.id).get();
     }
 
