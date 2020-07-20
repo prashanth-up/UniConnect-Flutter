@@ -7,7 +7,8 @@
     <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="PostDelete Added : Posts Deleted now will be wiped databases everywhere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/timeline.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/timeline.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="follow-settings" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -343,10 +344,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594810991408" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594379143168">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1595245780505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594379143168" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595245780505" />
     <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595168220147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -355,22 +356,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595073986659" />
-    <state width="722" height="180" key="GridCell.Tab.0.bottom" timestamp="1595166413616">
+    <state width="722" height="180" key="GridCell.Tab.0.bottom" timestamp="1595169026190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
-    <state width="722" height="180" key="GridCell.Tab.0.center" timestamp="1595166413616">
+    <state width="722" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595169026190" />
+    <state width="722" height="180" key="GridCell.Tab.0.center" timestamp="1595169026189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
-    <state width="722" height="180" key="GridCell.Tab.0.left" timestamp="1595166413615">
+    <state width="722" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595169026189" />
+    <state width="722" height="180" key="GridCell.Tab.0.left" timestamp="1595169026189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595166413615" />
-    <state width="722" height="180" key="GridCell.Tab.0.right" timestamp="1595166413616">
+    <state width="722" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595169026189" />
+    <state width="722" height="180" key="GridCell.Tab.0.right" timestamp="1595169026190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595166413616" />
+    <state width="722" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595169026190" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594748795314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -391,10 +392,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299667589" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595164985139">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595245019087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595164985139" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595245019087" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594902844156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
