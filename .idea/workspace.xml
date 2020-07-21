@@ -4,14 +4,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="Timeline commit, if user has no followers now it suggests users to follow.">
+    <list default="true" id="7d496361-c8f5-43d2-bc41-c4a9e569c1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/timeline.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/timeline.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/search.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/upload.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/upload.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="timeline-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -261,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595246622547</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Timeline commit, if user has no followers now it suggests users to follow.">
+      <created>1595248654265</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1595248654265</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Async Await bug fixes done. Activity Feed now doesn't get stuck in a infinite loop.">
+      <created>1595249102631</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1595249102631</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -322,8 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StreamBuilder and FutureBuilder Added in timeline.dart" />
-    <MESSAGE value="UserAuth ready. UserInfo stored in Firestore. Logout works." />
     <MESSAGE value="User Instance created. DocumentSnapshot in FireStore Stored in new model" />
     <MESSAGE value="Upload Page Modal Added with File Input." />
     <MESSAGE value="Upload Page UI/UX Added. TODO:FormSubmission" />
@@ -347,7 +355,9 @@
     <MESSAGE value="Firebase Functions: Posts deleted from timeline when user unfollows someone." />
     <MESSAGE value="PostDelete Added : Posts Deleted now will be wiped databases everywhere" />
     <MESSAGE value="GREATEST COMMIT EVER. TIMELINE BUILT AND SHOWS POSTS NOW" />
-    <option name="LAST_COMMIT_MESSAGE" value="GREATEST COMMIT EVER. TIMELINE BUILT AND SHOWS POSTS NOW" />
+    <MESSAGE value="Timeline commit, if user has no followers now it suggests users to follow." />
+    <MESSAGE value="Async Await bug fixes done. Activity Feed now doesn't get stuck in a infinite loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Async Await bug fixes done. Activity Feed now doesn't get stuck in a infinite loop." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="71" key="#Notifications" timestamp="1594810991408">
@@ -358,30 +368,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595245780505" />
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595248334468">
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2" timestamp="1595249101428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595248334468" />
+    <state x="283" y="5" width="983" height="819" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595249101428" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1595073986659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595073986659" />
-    <state width="1491" height="177" key="GridCell.Tab.0.bottom" timestamp="1595246622265">
+    <state width="1491" height="377" key="GridCell.Tab.0.bottom" timestamp="1595254900207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595246622265" />
-    <state width="1491" height="177" key="GridCell.Tab.0.center" timestamp="1595246622265">
+    <state width="1491" height="377" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595254900207" />
+    <state width="1491" height="377" key="GridCell.Tab.0.center" timestamp="1595254900207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595246622265" />
-    <state width="1491" height="177" key="GridCell.Tab.0.left" timestamp="1595246622264">
+    <state width="1491" height="377" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595254900207" />
+    <state width="1491" height="377" key="GridCell.Tab.0.left" timestamp="1595254900207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595246622264" />
-    <state width="1491" height="177" key="GridCell.Tab.0.right" timestamp="1595246622265">
+    <state width="1491" height="377" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595254900207" />
+    <state width="1491" height="377" key="GridCell.Tab.0.right" timestamp="1595254900207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595246622265" />
+    <state width="1491" height="377" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595254900207" />
     <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1594748795314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -394,10 +404,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1594748776397" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595074145634">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595248732024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595074145634" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595248732024" />
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1594299667589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
