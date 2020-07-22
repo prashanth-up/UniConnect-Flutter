@@ -46,14 +46,14 @@ class _HomeState extends State<Home> {
     googleSignIn.onCurrentUserChanged.listen((account) {
       handleSignIn(account);
     }, onError: (err) {
-      print('Error Signing In: $err');
+//      print('Error Signing In: $err');
     });
     //Handle if the user is already signed in.
     googleSignIn.signInSilently(suppressErrors: false).
       then((account) {
       handleSignIn(account);
     }).catchError((err){
-      print('Error Signing In: $err');
+//      print('Error Signing In: $err');
     });
   }
 
@@ -102,8 +102,8 @@ class _HomeState extends State<Home> {
     }
 
     currentUser = User.fromDocument(doc);
-    print(currentUser);
-    print(currentUser.username);
+//    print(currentUser);
+//    print(currentUser.username);
   }
 
 
@@ -186,7 +186,7 @@ class _HomeState extends State<Home> {
               'SRM Connect',
               style: TextStyle(
                 fontFamily: "Signatra",
-                fontSize: 90.0,
+                fontSize: 70.0,
                 color: Colors.white,
               ),
             ),

@@ -107,7 +107,7 @@ class _TimelineState extends State<Timeline> {
                       "Suggested Users to follow...",
                       style: TextStyle(
                         color: Theme.of(context).primaryColor,
-                        fontSize: 23.0
+                        fontSize: 15.0
                       ),
                     )
                   ],

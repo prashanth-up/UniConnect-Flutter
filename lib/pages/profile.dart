@@ -133,7 +133,7 @@ class _ProfileState extends State<Profile> {
       child: FlatButton(
         onPressed: function,
         child: Container(
-          width: 240.0,
+          width: 210.0,
           height: 27.0,
           child: Text(text,
             style: TextStyle(
@@ -255,7 +255,7 @@ class _ProfileState extends State<Profile> {
         }
         User user = User.fromDocument(snapshot.data);
         return Padding(
-          padding: EdgeInsets.all(16.0),
+          padding: EdgeInsets.all(14.0),
           child: Column(
             children: <Widget>[
               Row(
