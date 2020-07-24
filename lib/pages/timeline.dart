@@ -65,7 +65,7 @@ class _TimelineState extends State<Timeline> {
 
   buildUsersToFollow(){
     return StreamBuilder(
-      stream: usersRef.orderBy('timestamp', descending: true).limit(30)
+      stream: usersRef.orderBy('timestamp', descending: true).limit(8)
           .snapshots(),
       // ignore: missing_return
       builder: (context, snapshot){
