@@ -1,5 +1,5 @@
-# SRM Connect FLutter Project ![Dart CI](https://github.com/prashanth-up/SRM-Connect-Flutter/workflows/Dart%20CI/badge.svg)
+# UniConnect FLutter Project
 
-A Community App for SRM University.
+A Community App for Universities.
 
 
